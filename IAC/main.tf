@@ -7,9 +7,9 @@ type = string
 terraform {
 backend "s3" {
  region = "us-east-1"
- bucket = "tfstateb1lab"
- dynamodb_table = "tflcktable"  
- key = "japp.tfstate"
+ bucket = "s3-nts7"
+ dynamodb_table = "tablents7"  
+ key = "japp1.tfstate"
  
 }
 }
