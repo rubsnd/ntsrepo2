@@ -48,7 +48,7 @@ provisioner "remote-exec" {
 
 
 provisioner "file" {
- source  = "../target/japp2.war"
+ source  = "../target/japp1.war"
  destination = "/var/lib/tomcat9/webapps/ROOT.war"
 }
 connection {
