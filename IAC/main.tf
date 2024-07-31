@@ -11,7 +11,7 @@ backend "s3" {
  region = "us-east-1"
  bucket = "s3-nts7"
  dynamodb_table = "tablents7"  
- key = "japp1.tfstate"
+ key = "japp17689.tfstate"
  
 }
 }
